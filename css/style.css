@@ -1,0 +1,12 @@
+body {
+    width: 80%;
+    margin: 2% auto;
+}
+
+h1, h2 {
+    margin: 2px;
+}
+
+.taskBox {
+    border-bottom: 1px solid black;
+}
