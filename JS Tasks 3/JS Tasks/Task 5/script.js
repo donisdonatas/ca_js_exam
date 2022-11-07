@@ -1,7 +1,7 @@
 /* ------------------------------ TASK 5 -----------------------------------
 Turimas "users" masyvas. 
 
-Parašykite funckijas, kurios atliks nurodytas užduotis:
+Parašykite funkcijas, kurios atliks nurodytas užduotis:
 1. funkcija "filterDogOwners" - kaip argumentą priims masyvą ir duoto masyvo 
 atveju grąžins "users", kurie turi augintinį.
 2. funkcija "filterAdults" - kaip argumentą priims masyvą ir duoto masyvo 
@@ -19,3 +19,12 @@ const users = [
   { id: '8', name: 'Simon Peterson', age: 30, hasDog: false },
   { id: '9', name: 'Daniel Cane', age: 51, hasDog: true },
 ];
+
+
+let  filterDogOwners = users.filter(user => user.hasDog);
+
+console.log(filterDogOwners);
+
+let  filterAdults = users.filter(user => user.age >= 18);
+
+console.log(filterAdults);
