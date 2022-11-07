@@ -15,9 +15,9 @@ submitBtn.addEventListener('click', convertWeight);
 
 function convertWeight() {
     let weight_kg = document.getElementById('search').value;
-    let weight_lb = weight_kg * 2.2046;
-    let weight_gr = weight_kg / 0.001;
-    let weight_oz = weight_kg * 35.274;
+    let weight_lb = (weight_kg * 2.2046).toFixed(3);
+    let weight_gr = (weight_kg / 0.001).toFixed(0);
+    let weight_oz = (weight_kg * 35.274).toFixed(3);
 
     let output = `Your weight in:<br>Pounds (lb) - ${weight_lb};<br>Grams (g) - ${weight_gr};<br>Ounces (oz) - ${weight_oz}`;
     document.getElementById('output').innerHTML = output;
