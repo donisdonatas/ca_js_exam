@@ -30,18 +30,15 @@ async function fetchData() {
     }
 }
 
-
 function showUsers(users) {
-    //alert(users);
     const msg = document.getElementById('message');
     const output = document.getElementById('output');
     output.removeChild(msg);
-    //messageClean.style.visibility = 'hidden';
-    //messageClean.remove();
+
     users.forEach(user => {
         const login = user.login;
         const avatar = user.avatar_url;
-        //alert(login + avatar);
+
         const card = document.createElement('div');
         card.className = 'card';
         const figure = document.createElement('figure');
