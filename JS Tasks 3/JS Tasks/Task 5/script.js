@@ -22,9 +22,7 @@ const users = [
 
 
 let  filterDogOwners = users.filter(user => user.hasDog);
-
 console.log(filterDogOwners);
 
 let  filterAdults = users.filter(user => user.age >= 18);
-
 console.log(filterAdults);
