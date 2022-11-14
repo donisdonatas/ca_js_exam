@@ -1,3 +1,3 @@
-export function substraction(a, b) {
+function substraction(a, b) {
   return a - b;
 }
