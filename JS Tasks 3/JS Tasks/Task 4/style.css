@@ -26,4 +26,27 @@
 .container h1 {
   margin-top: 50px;
   color: #333;
+  margin-bottom: 30px;
+}
+
+/*========================*/
+
+.brandName {
+  font-size: 1.4em;
+  border-bottom: 1px solid #333;
+}
+
+.brandName:not(:first-of-type) {
+  margin-top: 30px;
+}
+
+li {
+  padding: 2px auto;
+}
+
+li:hover {
+  font-size: 1.2em;
+  color: rgb(0, 0, 150);
+  font-weight: 500;
+  font-style: bold;
 }
